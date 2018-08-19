@@ -3,7 +3,7 @@
 
 require 'vendor/autoload.php';
 
-use function \GuzzleHttp\json_decode;
+use function GuzzleHttp\json_decode;
 
 // Read in the command line arguments.
 $searchTerm = $argv[1] ?? '';
@@ -14,7 +14,7 @@ $geocodeClient = new \GuzzleHttp\Client([
     'base_uri' => 'https://geocode.xyz/',
 ]);
 
-$response = $geocodeClient->get($searchLocation.'?json=1');
+$response = $geocodeClient->get($searchLocation . '?json=1');
 
 $results = json_decode($response->getBody());
 
@@ -39,16 +39,18 @@ $storeId = $jsonResponse->response->data->nearestStores[0]->storeId;
 
 // Example search request.
 // curl -XGET 'https://wss2.cex.uk.webuy.io/v3/boxes?q=ashes%20to%20ashes'
-$response = $client->get('boxes', ['query' => [
-    'q' => $searchTerm,
-    'inStock' => 1,
-    'storeIds' => '[168]',
-    'categoryIds' => '[710, 1096]',
-    'firstRecord' => 1,
-    'count' => 25,
-    'sortBy' => 'relevance',
-    'sortOrder' => 'desc'
-]]);
+$response = $client->get('boxes', [
+    'query' => [
+        'q' => $searchTerm,
+        'inStock' => 1,
+        'storeIds' => '['.$storeId.']',
+        //'categoryIds' => '[710, 1096]',
+        'firstRecord' => 1,
+        'count' => 25,
+        'sortBy' => 'relevance',
+        'sortOrder' => 'desc',
+    ]
+]);
 
 $jsonResponse = json_decode($response->getBody());
 
@@ -74,7 +76,6 @@ foreach ($jsonResponse->response->data->boxes as $box) {
         $jsonResponse = json_decode($response->getBody());
 
         foreach ($jsonResponse->response->data->nearestStores as $store) {
-          var_dump($store);
             if ($store->storeId === $storeId && $store->quantityOnHand > 0) {
                 echo sprintf('%s has %d in stock!', $store->storeName, $store->quantityOnHand) . PHP_EOL;
             }
