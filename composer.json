@@ -1,0 +1,14 @@
+{
+    "name": "liamja/cexsearch",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Liam Anderson",
+            "email": "liam.anderson.91@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
