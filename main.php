@@ -3,7 +3,11 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
+use NunoMaduro\Collision\Provider as CollisionProvider;
 use function GuzzleHttp\json_decode;
+
+// Use Collision for pretty-printing errors to the console.
+(new CollisionProvider)->register();
 
 // Read in the command line arguments.
 $searchTerm = $argv[1] ?? '';

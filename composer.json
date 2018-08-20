@@ -1,5 +1,5 @@
 {
-    "name": "liamja/cexsearch",
+    "name": "liamja/cex",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -8,7 +8,19 @@
             "email": "liam.anderson.91@gmail.com"
         }
     ],
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Liamja\\Cex\\": "src/"
+        }
+    },
     "require": {
-        "guzzlehttp/guzzle": "^6.3"
+        "guzzlehttp/guzzle": "^6.3",
+        "nunomaduro/collision": "^2.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
     }
 }
