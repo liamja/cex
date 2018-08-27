@@ -4,34 +4,34 @@ namespace Liamja\Cex\Models;
 
 class Box
 {
-    /** @var string */
+    /** @var string Box ID. */
     public $boxId;
 
-    /** @var int|null */
+    /** @var int|null Master Box ID. */
     public $masterBoxId;
 
-    /** @var string */
+    /** @var string Box name. */
     public $boxName;
 
-    /** @var bool */
+    /** @var bool Is this the master box? */
     public $isMasterBox;
 
-    /** @var int */
+    /** @var int ID of the category this box belongs to. */
     public $categoryId;
 
-    /** @var string */
+    /** @var string Name of the category this box belongs to. */
     public $categoryName;
 
-    /** @var string */
+    /** @var string Friendly human-readable name of the category this box belongs to. */
     public $categoryFriendlyName;
 
-    /** @var int */
+    /** @var int ID of the category this box belongs to. */
     public $superCatId;
 
-    /** @var string */
+    /** @var string Name of the category this box belongs to. */
     public $superCatName;
 
-    /** @var string */
+    /** @var string Friendly human-readable name of the category this box belongs to. */
     public $superCatFriendlyName;
 
     /** @var bool */
@@ -52,7 +52,7 @@ class Box
     /** @var int|null */
     public $boxRating;
 
-    /** @var bool */
+    /** @var bool Is the box out of stock? */
     public $outOfStock;
 
     /** @var bool */
@@ -61,6 +61,6 @@ class Box
     /** @var int */
     public $ecomQuantityOnHand;
 
-    /** @var string[] */
+    /** @var string[] URLs to images of box art. */
     public $imageUrls;
 }

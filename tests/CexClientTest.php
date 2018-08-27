@@ -1,5 +1,6 @@
 <?php declare(strict_types=1);
 
+use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
@@ -33,7 +34,7 @@ class CexClientTest extends \PHPUnit\Framework\TestCase
             );
         }
 
-        return new CexClient(new \GuzzleHttp\Client([
+        return new CexClient(new Client([
             'base_uri' => 'https://wss2.cex.uk.webuy.io/v3/',
             'handler' => HandlerStack::create(new MockHandler(
                 $responses

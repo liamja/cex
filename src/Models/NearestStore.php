@@ -7,24 +7,24 @@ namespace Liamja\Cex\Models;
  */
 class NearestStore
 {
-    /** @var int */
+    /** @var int Store ID. */
     public $storeId;
 
-    /** @var string */
+    /** @var string Store name. */
     public $storeName;
 
-    /** @var string[] */
+    /** @var string[] URLs to photos of the store. */
     public $storeImageUrls = [];
 
-    /** @var float */
+    /** @var float Latitude. */
     public $latitude;
 
-    /** @var float */
+    /** @var float Longitude. */
     public $longitude;
 
-    /** @var float */
+    /** @var float Distance in miles from the specified search location. */
     public $distance;
 
-    /** @var array */
+    /** @var array Opening and closing times by day-of-week. */
     public $timings;
 }

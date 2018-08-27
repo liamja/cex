@@ -80,7 +80,7 @@ class CexClient
      *
      * @return NearestStore[]
      */
-    public function searchNearestStores(float $latitude, float $longitude)
+    public function searchNearestStores(float $latitude, float $longitude): array
     {
         try {
             $response = $this->client->get('stores/nearest', [
