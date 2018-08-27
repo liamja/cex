@@ -1,0 +1,2660 @@
+{
+  "response": {
+    "ack": "Success",
+    "data": {
+      "stores": [
+        {
+          "storeId": 1,
+          "storeName": "London W1 Tottenham Crt Rd",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.520383,
+          "longitude": -0.134501
+        },
+        {
+          "storeId": 2,
+          "storeName": "London W1 Rathbone Place",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.51764,
+          "longitude": -0.134483
+        },
+        {
+          "storeId": 10,
+          "storeName": "Harrow",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.582259560888,
+          "longitude": -0.33251152227164
+        },
+        {
+          "storeId": 11,
+          "storeName": "Birmingham",
+          "regionName": "The Midlands",
+          "latitude": 52.4803639,
+          "longitude": -1.895504
+        },
+        {
+          "storeId": 19,
+          "storeName": "Watford",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.653911226159,
+          "longitude": -0.39348922309516
+        },
+        {
+          "storeId": 22,
+          "storeName": "Hounslow",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.468136508717,
+          "longitude": -0.36602755284151
+        },
+        {
+          "storeId": 24,
+          "storeName": "Bromley",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.403479,
+          "longitude": 0.015413
+        },
+        {
+          "storeId": 27,
+          "storeName": "Kingston",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.411597,
+          "longitude": -0.300654
+        },
+        {
+          "storeId": 29,
+          "storeName": "Leeds",
+          "regionName": "North of England",
+          "latitude": 53.79966,
+          "longitude": -1.54519
+        },
+        {
+          "storeId": 31,
+          "storeName": "Southampton",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.905911,
+          "longitude": -1.40589
+        },
+        {
+          "storeId": 37,
+          "storeName": "Solihull",
+          "regionName": "The Midlands",
+          "latitude": 52.4127312,
+          "longitude": -1.7760955
+        },
+        {
+          "storeId": 38,
+          "storeName": "Northampton",
+          "regionName": "The Midlands",
+          "latitude": 52.23721,
+          "longitude": -0.89705
+        },
+        {
+          "storeId": 39,
+          "storeName": "Liverpool",
+          "regionName": "North of England",
+          "latitude": 53.406334,
+          "longitude": -2.980256
+        },
+        {
+          "storeId": 42,
+          "storeName": "Wolverhampton",
+          "regionName": "The Midlands",
+          "latitude": 52.58449,
+          "longitude": -2.127608
+        },
+        {
+          "storeId": 43,
+          "storeName": "Bristol",
+          "regionName": "South-West of England",
+          "latitude": 51.45895,
+          "longitude": -2.58864
+        },
+        {
+          "storeId": 44,
+          "storeName": "Nottingham",
+          "regionName": "The Midlands",
+          "latitude": 52.95243,
+          "longitude": -1.14916
+        },
+        {
+          "storeId": 46,
+          "storeName": "Brighton",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.824538911678,
+          "longitude": -0.15051014882096
+        },
+        {
+          "storeId": 47,
+          "storeName": "Leicester Granby Street",
+          "regionName": "The Midlands",
+          "latitude": 52.63287,
+          "longitude": -1.12895
+        },
+        {
+          "storeId": 48,
+          "storeName": "Sheffield",
+          "regionName": "North of England",
+          "latitude": 53.38293,
+          "longitude": -1.46642
+        },
+        {
+          "storeId": 49,
+          "storeName": "Bradford",
+          "regionName": "North of England",
+          "latitude": 53.79456,
+          "longitude": -1.75468
+        },
+        {
+          "storeId": 50,
+          "storeName": "Stoke",
+          "regionName": "The Midlands",
+          "latitude": 53.027613,
+          "longitude": -2.17701
+        },
+        {
+          "storeId": 51,
+          "storeName": "Plymouth",
+          "regionName": "South-West of England",
+          "latitude": 50.37086,
+          "longitude": -4.14292
+        },
+        {
+          "storeId": 52,
+          "storeName": "Glasgow Union St",
+          "regionName": "Scotland",
+          "latitude": 55.858899,
+          "longitude": -4.256678
+        },
+        {
+          "storeId": 54,
+          "storeName": "Edinburgh",
+          "regionName": "Scotland",
+          "latitude": 55.95309,
+          "longitude": -3.19594
+        },
+        {
+          "storeId": 56,
+          "storeName": "Hemel Hempstead",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.751132680156,
+          "longitude": -0.47245325296719
+        },
+        {
+          "storeId": 57,
+          "storeName": "Belfast",
+          "regionName": "Northern Ireland",
+          "latitude": 54.589696,
+          "longitude": -5.961199
+        },
+        {
+          "storeId": 58,
+          "storeName": "Ballymena",
+          "regionName": "Northern Ireland",
+          "latitude": 54.867025,
+          "longitude": -6.277485
+        },
+        {
+          "storeId": 59,
+          "storeName": "Lisburn",
+          "regionName": "Northern Ireland",
+          "latitude": 54.513633,
+          "longitude": -6.048489
+        },
+        {
+          "storeId": 60,
+          "storeName": "Newry",
+          "regionName": "Northern Ireland",
+          "latitude": 54.172188,
+          "longitude": -6.341267
+        },
+        {
+          "storeId": 61,
+          "storeName": "Hull",
+          "regionName": "North of England",
+          "latitude": 53.7459,
+          "longitude": -0.3438
+        },
+        {
+          "storeId": 62,
+          "storeName": "Tunbridge Wells",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.134496,
+          "longitude": 0.26742
+        },
+        {
+          "storeId": 63,
+          "storeName": "Swindon",
+          "regionName": "South-West of England",
+          "latitude": 51.55967,
+          "longitude": -1.7857
+        },
+        {
+          "storeId": 65,
+          "storeName": "Doncaster",
+          "regionName": "North of England",
+          "latitude": 53.52228,
+          "longitude": -1.13534
+        },
+        {
+          "storeId": 66,
+          "storeName": "Gloucester",
+          "regionName": "South-West of England",
+          "latitude": 51.86528,
+          "longitude": -2.24227
+        },
+        {
+          "storeId": 68,
+          "storeName": "Coventry - Hertford St",
+          "regionName": "The Midlands",
+          "latitude": 52.406618,
+          "longitude": -1.511264
+        },
+        {
+          "storeId": 69,
+          "storeName": "Luton",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.880677,
+          "longitude": -0.413318
+        },
+        {
+          "storeId": 71,
+          "storeName": "Merry Hill",
+          "regionName": "The Midlands",
+          "latitude": 52.48207,
+          "longitude": -2.11049
+        },
+        {
+          "storeId": 72,
+          "storeName": "Derby",
+          "regionName": "The Midlands",
+          "latitude": 52.921349,
+          "longitude": -1.472812
+        },
+        {
+          "storeId": 74,
+          "storeName": "Wakefield",
+          "regionName": "North of England",
+          "latitude": 53.68262,
+          "longitude": -1.49882
+        },
+        {
+          "storeId": 75,
+          "storeName": "Manchester Arndale",
+          "regionName": "North of England",
+          "latitude": 53.4832388,
+          "longitude": -2.2405596
+        },
+        {
+          "storeId": 76,
+          "storeName": "Liverpool Lord St",
+          "regionName": "North of England",
+          "latitude": 53.40509,
+          "longitude": -2.98694
+        },
+        {
+          "storeId": 77,
+          "storeName": "Bedford",
+          "regionName": "London and the South-East of England",
+          "latitude": 52.13622,
+          "longitude": -0.47042
+        },
+        {
+          "storeId": 78,
+          "storeName": "Ipswich",
+          "regionName": "East Anglia",
+          "latitude": 52.05675,
+          "longitude": 1.15644
+        },
+        {
+          "storeId": 79,
+          "storeName": "Derby Phone Exchange",
+          "regionName": "The Midlands",
+          "latitude": 52.92026,
+          "longitude": -1.47444
+        },
+        {
+          "storeId": 80,
+          "storeName": "Wood Green",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.59172,
+          "longitude": -0.10433
+        },
+        {
+          "storeId": 81,
+          "storeName": "Worcester",
+          "regionName": "The Midlands",
+          "latitude": 52.19081,
+          "longitude": -2.21927
+        },
+        {
+          "storeId": 82,
+          "storeName": "Basingstoke",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.26357,
+          "longitude": -1.08662
+        },
+        {
+          "storeId": 83,
+          "storeName": "Preston",
+          "regionName": "North of England",
+          "latitude": 53.75949,
+          "longitude": -2.70095
+        },
+        {
+          "storeId": 84,
+          "storeName": "Sutton",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.3656,
+          "longitude": -0.19447
+        },
+        {
+          "storeId": 85,
+          "storeName": "Huddersfield",
+          "regionName": "North of England",
+          "latitude": 53.64384,
+          "longitude": -1.78329
+        },
+        {
+          "storeId": 86,
+          "storeName": "Darlington",
+          "regionName": "North of England",
+          "latitude": 54.52655,
+          "longitude": -1.55507
+        },
+        {
+          "storeId": 87,
+          "storeName": "Croydon - George St",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.37432,
+          "longitude": -0.09771
+        },
+        {
+          "storeId": 89,
+          "storeName": "Bolton",
+          "regionName": "North of England",
+          "latitude": 53.57717,
+          "longitude": -2.42889
+        },
+        {
+          "storeId": 90,
+          "storeName": "Rugby Phone Exchange",
+          "regionName": "The Midlands",
+          "latitude": 52.37302,
+          "longitude": -1.26324
+        },
+        {
+          "storeId": 91,
+          "storeName": "Wigan",
+          "regionName": "North of England",
+          "latitude": 53.54756,
+          "longitude": -2.63098
+        },
+        {
+          "storeId": 92,
+          "storeName": "Coleraine",
+          "regionName": "Northern Ireland",
+          "latitude": 55.1317,
+          "longitude": -6.6676
+        },
+        {
+          "storeId": 93,
+          "storeName": "Leicester Phone Exchange",
+          "regionName": "The Midlands",
+          "latitude": 52.63658,
+          "longitude": -1.1314
+        },
+        {
+          "storeId": 94,
+          "storeName": "Barking",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.53908,
+          "longitude": 0.08057
+        },
+        {
+          "storeId": 95,
+          "storeName": "Wrexham",
+          "regionName": "Wales",
+          "latitude": 53.04634,
+          "longitude": -2.99362
+        },
+        {
+          "storeId": 96,
+          "storeName": "Stevenage",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.90196,
+          "longitude": -0.20119
+        },
+        {
+          "storeId": 97,
+          "storeName": "Enniskillen",
+          "regionName": "Northern Ireland",
+          "latitude": 54.34556,
+          "longitude": -7.64073
+        },
+        {
+          "storeId": 98,
+          "storeName": "Middlesbrough",
+          "regionName": "North of England",
+          "latitude": 54.57512,
+          "longitude": -1.23907
+        },
+        {
+          "storeId": 99,
+          "storeName": "Romford",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.57928,
+          "longitude": 0.18514
+        },
+        {
+          "storeId": 100,
+          "storeName": "St Albans",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.75145,
+          "longitude": -0.34039
+        },
+        {
+          "storeId": 101,
+          "storeName": "Maidstone",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.27608,
+          "longitude": 0.52263
+        },
+        {
+          "storeId": 103,
+          "storeName": "Cheltenham",
+          "regionName": "South-West of England",
+          "latitude": 51.90125,
+          "longitude": -2.07342
+        },
+        {
+          "storeId": 104,
+          "storeName": "Exeter",
+          "regionName": "South-West of England",
+          "latitude": 50.72355,
+          "longitude": -3.53263
+        },
+        {
+          "storeId": 105,
+          "storeName": "Uxbridge",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.54703,
+          "longitude": -0.48143
+        },
+        {
+          "storeId": 106,
+          "storeName": "Lincoln",
+          "regionName": "The Midlands",
+          "latitude": 53.229718,
+          "longitude": -0.539948
+        },
+        {
+          "storeId": 107,
+          "storeName": "Enfield",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.65205,
+          "longitude": -0.0841
+        },
+        {
+          "storeId": 108,
+          "storeName": "Londonderry",
+          "regionName": "Northern Ireland",
+          "latitude": 54.99486,
+          "longitude": -7.32064
+        },
+        {
+          "storeId": 109,
+          "storeName": "Andover",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.20825,
+          "longitude": -1.4792
+        },
+        {
+          "storeId": 110,
+          "storeName": "Walsall",
+          "regionName": "The Midlands",
+          "latitude": 52.5839,
+          "longitude": -1.9805
+        },
+        {
+          "storeId": 111,
+          "storeName": "Redditch",
+          "regionName": "The Midlands",
+          "latitude": 52.30602,
+          "longitude": -1.94295
+        },
+        {
+          "storeId": 112,
+          "storeName": "Tooting",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.42706,
+          "longitude": -0.1663
+        },
+        {
+          "storeId": 113,
+          "storeName": "Warrington",
+          "regionName": "North of England",
+          "latitude": 53.38922,
+          "longitude": -2.59487
+        },
+        {
+          "storeId": 114,
+          "storeName": "Portsmouth",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.79934,
+          "longitude": -1.09077
+        },
+        {
+          "storeId": 115,
+          "storeName": "Chatham",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.3826,
+          "longitude": 0.5248
+        },
+        {
+          "storeId": 116,
+          "storeName": "Dewsbury",
+          "regionName": "North of England",
+          "latitude": 53.68991,
+          "longitude": -1.63128
+        },
+        {
+          "storeId": 117,
+          "storeName": "Slough",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.50953,
+          "longitude": -0.59247
+        },
+        {
+          "storeId": 118,
+          "storeName": "Sunderland",
+          "regionName": "North of England",
+          "latitude": 54.905872,
+          "longitude": -1.381267
+        },
+        {
+          "storeId": 119,
+          "storeName": "Crawley",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.1147,
+          "longitude": -0.1869
+        },
+        {
+          "storeId": 120,
+          "storeName": "Stratford",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.541825,
+          "longitude": -0.00043
+        },
+        {
+          "storeId": 121,
+          "storeName": "Woking",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.3195,
+          "longitude": -0.5609
+        },
+        {
+          "storeId": 122,
+          "storeName": "Leamington Spa",
+          "regionName": "The Midlands",
+          "latitude": 52.288144,
+          "longitude": -1.535366
+        },
+        {
+          "storeId": 123,
+          "storeName": "Ilford",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.558478,
+          "longitude": 0.072203
+        },
+        {
+          "storeId": 124,
+          "storeName": "Stockport",
+          "regionName": "North of England",
+          "latitude": 53.411183,
+          "longitude": -2.162222
+        },
+        {
+          "storeId": 125,
+          "storeName": "High Wycombe",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.629948,
+          "longitude": -0.751656
+        },
+        {
+          "storeId": 126,
+          "storeName": "Camden",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.538614,
+          "longitude": -0.142061
+        },
+        {
+          "storeId": 128,
+          "storeName": "Streatham",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.43277,
+          "longitude": -0.129483
+        },
+        {
+          "storeId": 129,
+          "storeName": "Southend",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.540522,
+          "longitude": 0.711121
+        },
+        {
+          "storeId": 130,
+          "storeName": "Bridlington",
+          "regionName": "North of England",
+          "latitude": 54.082363,
+          "longitude": -0.190588
+        },
+        {
+          "storeId": 131,
+          "storeName": "South Shields",
+          "regionName": "North of England",
+          "latitude": 54.998739,
+          "longitude": -1.433129
+        },
+        {
+          "storeId": 133,
+          "storeName": "Staines",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.434223,
+          "longitude": -0.511451
+        },
+        {
+          "storeId": 134,
+          "storeName": "Scunthorpe",
+          "regionName": "North of England",
+          "latitude": 53.591398,
+          "longitude": -0.646342
+        },
+        {
+          "storeId": 135,
+          "storeName": "Halifax",
+          "regionName": "North of England",
+          "latitude": 53.723418,
+          "longitude": -1.857916
+        },
+        {
+          "storeId": 136,
+          "storeName": "Yeovil",
+          "regionName": "South-West of England",
+          "latitude": 50.942285,
+          "longitude": -2.630536
+        },
+        {
+          "storeId": 137,
+          "storeName": "Aylesbury",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.816809,
+          "longitude": -0.812161
+        },
+        {
+          "storeId": 138,
+          "storeName": "Bournemouth",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.720457,
+          "longitude": -1.883037
+        },
+        {
+          "storeId": 139,
+          "storeName": "Elephant And Castle",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.486059,
+          "longitude": -0.09478
+        },
+        {
+          "storeId": 140,
+          "storeName": "Barnsley",
+          "regionName": "North of England",
+          "latitude": 53.55088,
+          "longitude": -1.478309
+        },
+        {
+          "storeId": 141,
+          "storeName": "Ashford",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.1497,
+          "longitude": 0.871589
+        },
+        {
+          "storeId": 142,
+          "storeName": "Bexleyheath",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.456684,
+          "longitude": 0.145436
+        },
+        {
+          "storeId": 143,
+          "storeName": "Chesterfield",
+          "regionName": "The Midlands",
+          "latitude": 53.23476,
+          "longitude": -1.42611
+        },
+        {
+          "storeId": 144,
+          "storeName": "Nuneaton",
+          "regionName": "The Midlands",
+          "latitude": 52.522541,
+          "longitude": -1.468211
+        },
+        {
+          "storeId": 145,
+          "storeName": "Walthamstow",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.583371,
+          "longitude": -0.023809
+        },
+        {
+          "storeId": 147,
+          "storeName": "Shepherds Bush",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.503763,
+          "longitude": -0.218795
+        },
+        {
+          "storeId": 148,
+          "storeName": "Harlow",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.770544,
+          "longitude": 0.094324
+        },
+        {
+          "storeId": 149,
+          "storeName": "Grimsby",
+          "regionName": "North of England",
+          "latitude": 53.566261,
+          "longitude": -0.085353
+        },
+        {
+          "storeId": 150,
+          "storeName": "Blackpool",
+          "regionName": "North of England",
+          "latitude": 53.81549,
+          "longitude": -3.05386
+        },
+        {
+          "storeId": 151,
+          "storeName": "Oldham",
+          "regionName": "North of England",
+          "latitude": 53.541797,
+          "longitude": -2.11282
+        },
+        {
+          "storeId": 152,
+          "storeName": "Bury",
+          "regionName": "North of England",
+          "latitude": 53.591649,
+          "longitude": -2.295258
+        },
+        {
+          "storeId": 153,
+          "storeName": "Reading",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.456516,
+          "longitude": -0.97367
+        },
+        {
+          "storeId": 155,
+          "storeName": "Basildon",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.570363,
+          "longitude": 0.458014
+        },
+        {
+          "storeId": 156,
+          "storeName": "Mansfield",
+          "regionName": "The Midlands",
+          "latitude": 53.146008,
+          "longitude": -1.19885
+        },
+        {
+          "storeId": 157,
+          "storeName": "Brentwood",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.619496,
+          "longitude": 0.302222
+        },
+        {
+          "storeId": 158,
+          "storeName": "Edmonton",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.623693,
+          "longitude": -0.058825
+        },
+        {
+          "storeId": 159,
+          "storeName": "Washington",
+          "regionName": "North of England",
+          "latitude": 54.900838,
+          "longitude": -1.532996
+        },
+        {
+          "storeId": 160,
+          "storeName": "Taunton",
+          "regionName": "South-West of England",
+          "latitude": 51.014813,
+          "longitude": -3.099717
+        },
+        {
+          "storeId": 161,
+          "storeName": "Birkenhead",
+          "regionName": "North of England",
+          "latitude": 53.39007,
+          "longitude": -3.023631
+        },
+        {
+          "storeId": 163,
+          "storeName": "Great Yarmouth",
+          "regionName": "East Anglia",
+          "latitude": 52.606792,
+          "longitude": 1.727509
+        },
+        {
+          "storeId": 165,
+          "storeName": "Southport",
+          "regionName": "North of England",
+          "latitude": 53.6477,
+          "longitude": -3.0031
+        },
+        {
+          "storeId": 166,
+          "storeName": "Milton Keynes",
+          "regionName": "London and the South-East of England",
+          "latitude": 52.0434,
+          "longitude": -0.7556
+        },
+        {
+          "storeId": 167,
+          "storeName": "Maidenhead",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.5218,
+          "longitude": -0.722
+        },
+        {
+          "storeId": 168,
+          "storeName": "Norwich",
+          "regionName": "East Anglia",
+          "latitude": 52.62547,
+          "longitude": 1.29278
+        },
+        {
+          "storeId": 169,
+          "storeName": "Hereford",
+          "regionName": "The Midlands",
+          "latitude": 52.057,
+          "longitude": -2.7136
+        },
+        {
+          "storeId": 170,
+          "storeName": "Loughborough",
+          "regionName": "The Midlands",
+          "latitude": 52.771249,
+          "longitude": -1.207958
+        },
+        {
+          "storeId": 171,
+          "storeName": "Fulham",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.4841,
+          "longitude": -0.2015
+        },
+        {
+          "storeId": 180,
+          "storeName": "Hartlepool",
+          "regionName": "North of England",
+          "latitude": 54.684273,
+          "longitude": -1.214096
+        },
+        {
+          "storeId": 181,
+          "storeName": "Wimbledon",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.42,
+          "longitude": -0.2034
+        },
+        {
+          "storeId": 182,
+          "storeName": "Kilburn",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.53837,
+          "longitude": -0.19387
+        },
+        {
+          "storeId": 183,
+          "storeName": "Canterbury",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.277662,
+          "longitude": 1.081581
+        },
+        {
+          "storeId": 184,
+          "storeName": "West Bromwich",
+          "regionName": "The Midlands",
+          "latitude": 52.518055,
+          "longitude": -1.993555
+        },
+        {
+          "storeId": 185,
+          "storeName": "Worthing",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.809891,
+          "longitude": -0.375548
+        },
+        {
+          "storeId": 186,
+          "storeName": "Scarborough",
+          "regionName": "North of England",
+          "latitude": 54.279892,
+          "longitude": -0.405561
+        },
+        {
+          "storeId": 187,
+          "storeName": "St Helens",
+          "regionName": "North of England",
+          "latitude": 53.452281,
+          "longitude": -2.73538
+        },
+        {
+          "storeId": 188,
+          "storeName": "Gravesend",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.441969,
+          "longitude": 0.368328
+        },
+        {
+          "storeId": 189,
+          "storeName": "Dalston - Hackney",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.5464,
+          "longitude": -0.0754
+        },
+        {
+          "storeId": 190,
+          "storeName": "Kings Lynn",
+          "regionName": "East Anglia",
+          "latitude": 52.755002,
+          "longitude": 0.396333
+        },
+        {
+          "storeId": 191,
+          "storeName": "Poole",
+          "regionName": "South-West of England",
+          "latitude": 50.716396,
+          "longitude": -1.983659
+        },
+        {
+          "storeId": 192,
+          "storeName": "Banbury",
+          "regionName": "London and the South-East of England",
+          "latitude": 52.0607,
+          "longitude": -1.3378
+        },
+        {
+          "storeId": 193,
+          "storeName": "Woolwich",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.491979,
+          "longitude": 0.064665
+        },
+        {
+          "storeId": 194,
+          "storeName": "Torquay",
+          "regionName": "South-West of England",
+          "latitude": 50.465975,
+          "longitude": -3.528685
+        },
+        {
+          "storeId": 195,
+          "storeName": "Chippenham",
+          "regionName": "South-West of England",
+          "latitude": 51.4594,
+          "longitude": -2.1151
+        },
+        {
+          "storeId": 196,
+          "storeName": "Colchester",
+          "regionName": "East Anglia",
+          "latitude": 51.888451,
+          "longitude": 0.902553
+        },
+        {
+          "storeId": 197,
+          "storeName": "Aberdeen",
+          "regionName": "Scotland",
+          "latitude": 57.1473,
+          "longitude": -2.0965
+        },
+        {
+          "storeId": 198,
+          "storeName": "Dundee",
+          "regionName": "Scotland",
+          "latitude": 56.45975,
+          "longitude": -2.97097
+        },
+        {
+          "storeId": 199,
+          "storeName": "Ashton Under Lyne",
+          "regionName": "North of England",
+          "latitude": 53.48869,
+          "longitude": -2.095735
+        },
+        {
+          "storeId": 200,
+          "storeName": "Camberley",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.3374,
+          "longitude": -0.7458
+        },
+        {
+          "storeId": 201,
+          "storeName": "Kettering",
+          "regionName": "The Midlands",
+          "latitude": 52.4007,
+          "longitude": -0.7271
+        },
+        {
+          "storeId": 202,
+          "storeName": "Kidderminster",
+          "regionName": "The Midlands",
+          "latitude": 52.3877,
+          "longitude": -2.2477
+        },
+        {
+          "storeId": 203,
+          "storeName": "Bootle",
+          "regionName": "North of England",
+          "latitude": 53.4499,
+          "longitude": -3.0005
+        },
+        {
+          "storeId": 204,
+          "storeName": "Tamworth",
+          "regionName": "The Midlands",
+          "latitude": 52.632685,
+          "longitude": -1.693397
+        },
+        {
+          "storeId": 205,
+          "storeName": "Barnet",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.655359,
+          "longitude": -0.203161
+        },
+        {
+          "storeId": 206,
+          "storeName": "Salford",
+          "regionName": "North of England",
+          "latitude": 53.48848,
+          "longitude": -2.287838
+        },
+        {
+          "storeId": 207,
+          "storeName": "Telford",
+          "regionName": "The Midlands",
+          "latitude": 52.678091,
+          "longitude": -2.446649
+        },
+        {
+          "storeId": 208,
+          "storeName": "Guildford",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.23689,
+          "longitude": -0.57288
+        },
+        {
+          "storeId": 209,
+          "storeName": "Inverness",
+          "regionName": "Scotland",
+          "latitude": 57.477427,
+          "longitude": -4.223213
+        },
+        {
+          "storeId": 210,
+          "storeName": "Castleford",
+          "regionName": "North of England",
+          "latitude": 53.725789,
+          "longitude": -1.35061
+        },
+        {
+          "storeId": 211,
+          "storeName": "Lewisham",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.462559,
+          "longitude": -0.010626
+        },
+        {
+          "storeId": 212,
+          "storeName": "Sutton Coldfield",
+          "regionName": "The Midlands",
+          "latitude": 52.5623,
+          "longitude": -1.8247
+        },
+        {
+          "storeId": 213,
+          "storeName": "Stourbridge",
+          "regionName": "The Midlands",
+          "latitude": 52.457474,
+          "longitude": -2.14817
+        },
+        {
+          "storeId": 214,
+          "storeName": "Lowestoft",
+          "regionName": "East Anglia",
+          "latitude": 52.474874,
+          "longitude": 1.751182
+        },
+        {
+          "storeId": 215,
+          "storeName": "Sittingbourne",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.342623,
+          "longitude": 0.735397
+        },
+        {
+          "storeId": 216,
+          "storeName": "Newcastle Grainger St",
+          "regionName": "North of England",
+          "latitude": 54.9718,
+          "longitude": -1.6149
+        },
+        {
+          "storeId": 217,
+          "storeName": "Stirling",
+          "regionName": "Scotland",
+          "latitude": 56.118405,
+          "longitude": -3.935766
+        },
+        {
+          "storeId": 219,
+          "storeName": "Bayswater",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.514512,
+          "longitude": -0.187626
+        },
+        {
+          "storeId": 220,
+          "storeName": "Dartford",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.444593,
+          "longitude": 0.216122
+        },
+        {
+          "storeId": 221,
+          "storeName": "Cramlington",
+          "regionName": "North of England",
+          "latitude": 55.085307,
+          "longitude": -1.588061
+        },
+        {
+          "storeId": 222,
+          "storeName": "Swansea",
+          "regionName": "Wales",
+          "latitude": 51.619599,
+          "longitude": -3.945137
+        },
+        {
+          "storeId": 225,
+          "storeName": "Gateshead Metro Centre",
+          "regionName": "North of England",
+          "latitude": 54.954554,
+          "longitude": -1.666875
+        },
+        {
+          "storeId": 226,
+          "storeName": "Redhill",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.238975,
+          "longitude": -0.168743
+        },
+        {
+          "storeId": 227,
+          "storeName": "Harrogate",
+          "regionName": "North of England",
+          "latitude": 53.994274,
+          "longitude": -1.539137
+        },
+        {
+          "storeId": 228,
+          "storeName": "Burnley",
+          "regionName": "North of England",
+          "latitude": 53.79041,
+          "longitude": -2.242713
+        },
+        {
+          "storeId": 229,
+          "storeName": "Peckham",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.467884,
+          "longitude": -0.071132
+        },
+        {
+          "storeId": 230,
+          "storeName": "Macclesfield",
+          "regionName": "North of England",
+          "latitude": 53.2590483,
+          "longitude": -2.1262381
+        },
+        {
+          "storeId": 231,
+          "storeName": "Burton On Trent",
+          "regionName": "The Midlands",
+          "latitude": 52.800712,
+          "longitude": -1.633744
+        },
+        {
+          "storeId": 232,
+          "storeName": "Belfast Ann Street",
+          "regionName": "Northern Ireland",
+          "latitude": 54.599069,
+          "longitude": -5.926309
+        },
+        {
+          "storeId": 233,
+          "storeName": "Kings Heath",
+          "regionName": "The Midlands",
+          "latitude": 52.4338,
+          "longitude": -1.8929
+        },
+        {
+          "storeId": 234,
+          "storeName": "Cambridge",
+          "regionName": "East Anglia",
+          "latitude": 52.20672,
+          "longitude": 0.13041
+        },
+        {
+          "storeId": 235,
+          "storeName": "Farnborough",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.29158,
+          "longitude": -0.75655
+        },
+        {
+          "storeId": 236,
+          "storeName": "Bangor",
+          "regionName": "Northern Ireland",
+          "latitude": 54.660565,
+          "longitude": -5.66828
+        },
+        {
+          "storeId": 237,
+          "storeName": "Dudley",
+          "regionName": "The Midlands",
+          "latitude": 52.509878,
+          "longitude": -2.082776
+        },
+        {
+          "storeId": 238,
+          "storeName": "Erdington",
+          "regionName": "The Midlands",
+          "latitude": 52.524525,
+          "longitude": -1.838016
+        },
+        {
+          "storeId": 239,
+          "storeName": "Gateshead Trinity Square",
+          "regionName": "North of England",
+          "latitude": 54.962126,
+          "longitude": -1.603441
+        },
+        {
+          "storeId": 240,
+          "storeName": "Barnstaple",
+          "regionName": "South-West of England",
+          "latitude": 51.080517,
+          "longitude": -4.060435
+        },
+        {
+          "storeId": 241,
+          "storeName": "Boscombe",
+          "regionName": "South-West of England",
+          "latitude": 50.727215,
+          "longitude": -1.839518
+        },
+        {
+          "storeId": 242,
+          "storeName": "Bridgwater",
+          "regionName": "South-West of England",
+          "latitude": 51.128776,
+          "longitude": -3.001652
+        },
+        {
+          "storeId": 243,
+          "storeName": "Brixton",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.464315,
+          "longitude": -0.114773
+        },
+        {
+          "storeId": 244,
+          "storeName": "York",
+          "regionName": "North of England",
+          "latitude": 53.960152,
+          "longitude": -1.080837
+        },
+        {
+          "storeId": 245,
+          "storeName": "Northfield",
+          "regionName": "The Midlands",
+          "latitude": 52.41505,
+          "longitude": -1.97105
+        },
+        {
+          "storeId": 248,
+          "storeName": "Bournemouth - Castlepoint",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.751111,
+          "longitude": -1.845278
+        },
+        {
+          "storeId": 249,
+          "storeName": "Wakefield - The Springs",
+          "regionName": "North of England",
+          "latitude": 53.683344,
+          "longitude": -1.495327
+        },
+        {
+          "storeId": 250,
+          "storeName": "Cardiff - St Davids",
+          "regionName": "Wales",
+          "latitude": 51.480586,
+          "longitude": -3.176249
+        },
+        {
+          "storeId": 251,
+          "storeName": "Wythenshawe",
+          "regionName": "North of England",
+          "latitude": 53.380036,
+          "longitude": -2.26223
+        },
+        {
+          "storeId": 252,
+          "storeName": "Skelmersdale",
+          "regionName": "North of England",
+          "latitude": 53.550354,
+          "longitude": -2.77433
+        },
+        {
+          "storeId": 253,
+          "storeName": "Glasgow Sauchiehall",
+          "regionName": "Scotland",
+          "latitude": 55.865513,
+          "longitude": -4.262583
+        },
+        {
+          "storeId": 254,
+          "storeName": "Barrow-In-Furness",
+          "regionName": "North of England",
+          "latitude": 54.112913,
+          "longitude": -3.224952
+        },
+        {
+          "storeId": 255,
+          "storeName": "Dagenham",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.541389,
+          "longitude": 0.148611
+        },
+        {
+          "storeId": 256,
+          "storeName": "Grantham",
+          "regionName": "The Midlands",
+          "latitude": 52.910097,
+          "longitude": -0.643022
+        },
+        {
+          "storeId": 257,
+          "storeName": "Newport",
+          "regionName": "Wales",
+          "latitude": 51.587292,
+          "longitude": -2.995471
+        },
+        {
+          "storeId": 258,
+          "storeName": "Grays",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.476944,
+          "longitude": 0.323889
+        },
+        {
+          "storeId": 259,
+          "storeName": "Dunfermline",
+          "regionName": "Scotland",
+          "latitude": 56.072687,
+          "longitude": -3.459707
+        },
+        {
+          "storeId": 261,
+          "storeName": "Perry Barr",
+          "regionName": "The Midlands",
+          "latitude": 52.5179393,
+          "longitude": -1.9036142
+        },
+        {
+          "storeId": 262,
+          "storeName": "Chelmsford",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.733916,
+          "longitude": 0.472303
+        },
+        {
+          "storeId": 263,
+          "storeName": "Rochdale",
+          "regionName": "North of England",
+          "latitude": 53.618478,
+          "longitude": -2.157564
+        },
+        {
+          "storeId": 264,
+          "storeName": "Winchester",
+          "regionName": "South-West of England",
+          "latitude": 51.062366,
+          "longitude": -1.313594
+        },
+        {
+          "storeId": 265,
+          "storeName": "Durham",
+          "regionName": "North of England",
+          "latitude": 54.776611,
+          "longitude": -1.579344
+        },
+        {
+          "storeId": 266,
+          "storeName": "East Kilbride",
+          "regionName": "Scotland",
+          "latitude": 55.760889,
+          "longitude": -4.176055
+        },
+        {
+          "storeId": 267,
+          "storeName": "Beeston",
+          "regionName": "The Midlands",
+          "latitude": 52.927998,
+          "longitude": -1.213411
+        },
+        {
+          "storeId": 268,
+          "storeName": "Crewe",
+          "regionName": "North of England",
+          "latitude": 53.09796,
+          "longitude": -2.44212
+        },
+        {
+          "storeId": 269,
+          "storeName": "Accrington",
+          "regionName": "North of England",
+          "latitude": 53.753458,
+          "longitude": -2.365658
+        },
+        {
+          "storeId": 270,
+          "storeName": "Aldershot",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.249355,
+          "longitude": -0.76549
+        },
+        {
+          "storeId": 271,
+          "storeName": "Falkirk",
+          "regionName": "Scotland",
+          "latitude": 55.9985889,
+          "longitude": -3.7815662
+        },
+        {
+          "storeId": 272,
+          "storeName": "Motherwell",
+          "regionName": "Scotland",
+          "latitude": 55.789884,
+          "longitude": -3.991206
+        },
+        {
+          "storeId": 274,
+          "storeName": "Runcorn",
+          "regionName": "North of England",
+          "latitude": 53.327984,
+          "longitude": -2.697871
+        },
+        {
+          "storeId": 275,
+          "storeName": "Folkestone",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.07917,
+          "longitude": 1.18
+        },
+        {
+          "storeId": 276,
+          "storeName": "Keighley",
+          "regionName": "North of England",
+          "latitude": 53.866883,
+          "longitude": -1.907945
+        },
+        {
+          "storeId": 277,
+          "storeName": "Altrincham",
+          "regionName": "North of England",
+          "latitude": 53.388204,
+          "longitude": -2.349024
+        },
+        {
+          "storeId": 278,
+          "storeName": "Fareham",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.852707,
+          "longitude": -1.179485
+        },
+        {
+          "storeId": 279,
+          "storeName": "Cwmbran",
+          "regionName": "Wales",
+          "latitude": 51.6454,
+          "longitude": -3.04641
+        },
+        {
+          "storeId": 280,
+          "storeName": "Peterborough",
+          "regionName": "East Anglia",
+          "latitude": 52.57305,
+          "longitude": -0.24197
+        },
+        {
+          "storeId": 281,
+          "storeName": "Eastbourne",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.768646,
+          "longitude": 0.282423
+        },
+        {
+          "storeId": 282,
+          "storeName": "Stockton",
+          "regionName": "North of England",
+          "latitude": 54.562806,
+          "longitude": -1.312333
+        },
+        {
+          "storeId": 284,
+          "storeName": "Shrewsbury Castle Street",
+          "regionName": "The Midlands",
+          "latitude": 52.7092,
+          "longitude": -2.75245
+        },
+        {
+          "storeId": 285,
+          "storeName": "Newbury",
+          "regionName": "South-West of England",
+          "latitude": 51.4,
+          "longitude": -1.32399
+        },
+        {
+          "storeId": 286,
+          "storeName": "Acocks Green",
+          "regionName": "The Midlands",
+          "latitude": 52.44656,
+          "longitude": -1.82272
+        },
+        {
+          "storeId": 287,
+          "storeName": "Widnes",
+          "regionName": "North of England",
+          "latitude": 53.36851,
+          "longitude": -2.72669
+        },
+        {
+          "storeId": 289,
+          "storeName": "Bilston",
+          "regionName": "The Midlands",
+          "latitude": 52.56479,
+          "longitude": -2.07688
+        },
+        {
+          "storeId": 291,
+          "storeName": "Melton Mowbray",
+          "regionName": "The Midlands",
+          "latitude": 52.76473,
+          "longitude": -0.8842
+        },
+        {
+          "storeId": 292,
+          "storeName": "Cumbernauld",
+          "regionName": "Scotland",
+          "latitude": 55.94642,
+          "longitude": -3.98836
+        },
+        {
+          "storeId": 294,
+          "storeName": "Peterlee",
+          "regionName": "North of England",
+          "latitude": 54.75989,
+          "longitude": -1.33473
+        },
+        {
+          "storeId": 295,
+          "storeName": "Ayr",
+          "regionName": "Scotland",
+          "latitude": 55.46267,
+          "longitude": -4.6305
+        },
+        {
+          "storeId": 297,
+          "storeName": "Newtownabbey",
+          "regionName": "Northern Ireland",
+          "latitude": 54.65417,
+          "longitude": -5.9186
+        },
+        {
+          "storeId": 298,
+          "storeName": "Wembley",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.55277,
+          "longitude": -0.29555
+        },
+        {
+          "storeId": 299,
+          "storeName": "Rotherham",
+          "regionName": "North of England",
+          "latitude": 53.43295,
+          "longitude": -1.356484
+        },
+        {
+          "storeId": 300,
+          "storeName": "Carlisle",
+          "regionName": "North of England",
+          "latitude": 54.895617,
+          "longitude": -2.93591
+        },
+        {
+          "storeId": 301,
+          "storeName": "Chelmsley Wood",
+          "regionName": "The Midlands",
+          "latitude": 52.479334,
+          "longitude": -1.73924
+        },
+        {
+          "storeId": 302,
+          "storeName": "Worksop",
+          "regionName": "The Midlands",
+          "latitude": 53.304093,
+          "longitude": -1.125696
+        },
+        {
+          "storeId": 303,
+          "storeName": "Newcastle under Lyme",
+          "regionName": "The Midlands",
+          "latitude": 53.010052,
+          "longitude": -2.225558
+        },
+        {
+          "storeId": 305,
+          "storeName": "Dover",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.12645,
+          "longitude": 1.31017
+        },
+        {
+          "storeId": 306,
+          "storeName": "Stafford",
+          "regionName": "The Midlands",
+          "latitude": 52.805212,
+          "longitude": -2.116304
+        },
+        {
+          "storeId": 307,
+          "storeName": "Eltham",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.450413,
+          "longitude": 0.053216
+        },
+        {
+          "storeId": 308,
+          "storeName": "Lancaster",
+          "regionName": "North of England",
+          "latitude": 54.047017,
+          "longitude": -2.800002
+        },
+        {
+          "storeId": 309,
+          "storeName": "Blackburn",
+          "regionName": "North of England",
+          "latitude": 53.749429,
+          "longitude": -2.485729
+        },
+        {
+          "storeId": 310,
+          "storeName": "Corby",
+          "regionName": "The Midlands",
+          "latitude": 52.48748,
+          "longitude": -0.70053
+        },
+        {
+          "storeId": 311,
+          "storeName": "Weymouth",
+          "regionName": "South-West of England",
+          "latitude": 50.60938,
+          "longitude": -2.45433
+        },
+        {
+          "storeId": 315,
+          "storeName": "Livingston",
+          "regionName": "Scotland",
+          "latitude": 55.88476,
+          "longitude": -3.51108
+        },
+        {
+          "storeId": 316,
+          "storeName": "Bognor Regis",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.78529,
+          "longitude": -0.67457
+        },
+        {
+          "storeId": 317,
+          "storeName": "Tonbridge",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.19344,
+          "longitude": 0.27291
+        },
+        {
+          "storeId": 321,
+          "storeName": "Pontypridd",
+          "regionName": "Wales",
+          "latitude": 51.60086,
+          "longitude": -3.34138
+        },
+        {
+          "storeId": 322,
+          "storeName": "Salisbury",
+          "regionName": "South-West of England",
+          "latitude": 51.0689,
+          "longitude": -1.79542
+        },
+        {
+          "storeId": 323,
+          "storeName": "Ramsgate",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.33315,
+          "longitude": 1.41911
+        },
+        {
+          "storeId": 324,
+          "storeName": "Braintree",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.87966,
+          "longitude": 0.55111
+        },
+        {
+          "storeId": 325,
+          "storeName": "Gillingham",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.39276,
+          "longitude": 0.53103
+        },
+        {
+          "storeId": 326,
+          "storeName": "East Ham",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.5351396,
+          "longitude": 0.0516837
+        },
+        {
+          "storeId": 327,
+          "storeName": "Eastleigh",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.96758,
+          "longitude": -1.35176
+        },
+        {
+          "storeId": 328,
+          "storeName": "Wellingborough",
+          "regionName": "The Midlands",
+          "latitude": 52.30097,
+          "longitude": -0.69187
+        },
+        {
+          "storeId": 333,
+          "storeName": "Crystal Peaks",
+          "regionName": "North of England",
+          "latitude": 53.34204,
+          "longitude": -1.35138
+        },
+        {
+          "storeId": 335,
+          "storeName": "Orpington",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.37743,
+          "longitude": 0.1009
+        },
+        {
+          "storeId": 336,
+          "storeName": "Evesham",
+          "regionName": "The Midlands",
+          "latitude": 52.09219,
+          "longitude": -1.94591
+        },
+        {
+          "storeId": 337,
+          "storeName": "Lichfield",
+          "regionName": "The Midlands",
+          "latitude": 52.68339,
+          "longitude": -1.82664
+        },
+        {
+          "storeId": 338,
+          "storeName": "Greenock",
+          "regionName": "Scotland",
+          "latitude": 55.94927,
+          "longitude": -4.759289
+        },
+        {
+          "storeId": 340,
+          "storeName": "Waltham Cross",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.68631,
+          "longitude": -0.03217
+        },
+        {
+          "storeId": 341,
+          "storeName": "Hinckley",
+          "regionName": "The Midlands",
+          "latitude": 52.54165,
+          "longitude": -1.37161
+        },
+        {
+          "storeId": 342,
+          "storeName": "Chorley",
+          "regionName": "North of England",
+          "latitude": 53.65271,
+          "longitude": -2.6321
+        },
+        {
+          "storeId": 3001,
+          "storeName": "Halesowen",
+          "regionName": "The Midlands",
+          "latitude": 52.448693,
+          "longitude": -2.050442
+        },
+        {
+          "storeId": 3002,
+          "storeName": "Thetford",
+          "regionName": "East Anglia",
+          "latitude": 52.41416,
+          "longitude": 0.74761
+        },
+        {
+          "storeId": 3003,
+          "storeName": "Truro",
+          "regionName": "South-West of England",
+          "latitude": 50.26337,
+          "longitude": -5.05353
+        },
+        {
+          "storeId": 3004,
+          "storeName": "Port Talbot",
+          "regionName": "Wales",
+          "latitude": 51.59456,
+          "longitude": -3.78291
+        },
+        {
+          "storeId": 3005,
+          "storeName": "Clydebank",
+          "regionName": "Scotland",
+          "latitude": 55.90464,
+          "longitude": -4.40423
+        },
+        {
+          "storeId": 3006,
+          "storeName": "Northampton - Weston Favell",
+          "regionName": "The Midlands",
+          "latitude": 52.25703,
+          "longitude": -0.83548
+        },
+        {
+          "storeId": 3007,
+          "storeName": "Barry",
+          "regionName": "Wales",
+          "latitude": 51.40639,
+          "longitude": -3.26502
+        },
+        {
+          "storeId": 3008,
+          "storeName": "Leeds Crossgates",
+          "regionName": "North of England",
+          "latitude": 53.80634,
+          "longitude": -1.45023
+        },
+        {
+          "storeId": 3009,
+          "storeName": "Bishops Stortford",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.86904,
+          "longitude": 0.16001
+        },
+        {
+          "storeId": 3010,
+          "storeName": "Newtownards",
+          "regionName": "Northern Ireland",
+          "latitude": 54.59309,
+          "longitude": -5.70852
+        },
+        {
+          "storeId": 3011,
+          "storeName": "Kirkcaldy",
+          "regionName": "Scotland",
+          "latitude": 56.10877,
+          "longitude": -3.15992
+        },
+        {
+          "storeId": 3012,
+          "storeName": "Perth",
+          "regionName": "Scotland",
+          "latitude": 56.39558,
+          "longitude": -3.42995
+        },
+        {
+          "storeId": 3013,
+          "storeName": "Hull Northpoint",
+          "regionName": "North of England",
+          "latitude": 53.78666,
+          "longitude": -0.32201
+        },
+        {
+          "storeId": 3015,
+          "storeName": "Skegness",
+          "regionName": "The Midlands",
+          "latitude": 53.142994,
+          "longitude": 0.337741
+        },
+        {
+          "storeId": 3016,
+          "storeName": "Newmarket",
+          "regionName": "East Anglia",
+          "latitude": 52.24585,
+          "longitude": 0.40618
+        },
+        {
+          "storeId": 3017,
+          "storeName": "Edinburgh Cameron Toll",
+          "regionName": "Scotland",
+          "latitude": 55.92716,
+          "longitude": -3.163784
+        },
+        {
+          "storeId": 3018,
+          "storeName": "Stroud",
+          "regionName": "South-West of England",
+          "latitude": 51.74554,
+          "longitude": -2.21632
+        },
+        {
+          "storeId": 3019,
+          "storeName": "St Austell",
+          "regionName": "South-West of England",
+          "latitude": 50.33701,
+          "longitude": -4.79393
+        },
+        {
+          "storeId": 3020,
+          "storeName": "Windsor",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.48086,
+          "longitude": -0.6115
+        },
+        {
+          "storeId": 3021,
+          "storeName": "Hatfield",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.761667,
+          "longitude": -0.23977
+        },
+        {
+          "storeId": 3022,
+          "storeName": "Chester",
+          "regionName": "North of England",
+          "latitude": 53.19238,
+          "longitude": -2.88874
+        },
+        {
+          "storeId": 3023,
+          "storeName": "Ellesmere Port",
+          "regionName": "North of England",
+          "latitude": 53.277458,
+          "longitude": -2.901507
+        },
+        {
+          "storeId": 3024,
+          "storeName": "Hull Whitefriargate",
+          "regionName": "North of England",
+          "latitude": 53.74307,
+          "longitude": -0.3372
+        },
+        {
+          "storeId": 3025,
+          "storeName": "Stratford upon Avon",
+          "regionName": "The Midlands",
+          "latitude": 52.19261,
+          "longitude": -1.708692
+        },
+        {
+          "storeId": 3027,
+          "storeName": "Ashington",
+          "regionName": "North of England",
+          "latitude": 55.183455,
+          "longitude": -1.571141
+        },
+        {
+          "storeId": 3028,
+          "storeName": "Belle Vale",
+          "regionName": "North of England",
+          "latitude": 53.393564,
+          "longitude": -2.861695
+        },
+        {
+          "storeId": 3029,
+          "storeName": "Retford",
+          "regionName": "The Midlands",
+          "latitude": 53.321186,
+          "longitude": -0.94098
+        },
+        {
+          "storeId": 3030,
+          "storeName": "Bath",
+          "regionName": "South-West of England",
+          "latitude": 51.380224,
+          "longitude": -2.359102
+        },
+        {
+          "storeId": 3032,
+          "storeName": "Hammersmith",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.492555,
+          "longitude": -0.230305
+        },
+        {
+          "storeId": 3033,
+          "storeName": "Bishop Auckland",
+          "regionName": "North of England",
+          "latitude": 54.664406,
+          "longitude": -1.676123
+        },
+        {
+          "storeId": 3034,
+          "storeName": "Clapham Junction",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.46236982,
+          "longitude": -0.16721092
+        },
+        {
+          "storeId": 3035,
+          "storeName": "Holloway",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.556725,
+          "longitude": -0.118043
+        },
+        {
+          "storeId": 3037,
+          "storeName": "Craigavon",
+          "regionName": "Northern Ireland",
+          "latitude": 54.44948,
+          "longitude": -6.39177
+        },
+        {
+          "storeId": 3038,
+          "storeName": "Wolverhampton Wulfrun",
+          "regionName": "The Midlands",
+          "latitude": 52.583206,
+          "longitude": -2.126999
+        },
+        {
+          "storeId": 3039,
+          "storeName": "Newport IsleOfWight",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.698889,
+          "longitude": -1.294966
+        },
+        {
+          "storeId": 3040,
+          "storeName": "Kendal",
+          "regionName": "North of England",
+          "latitude": 54.329028,
+          "longitude": -2.746127
+        },
+        {
+          "storeId": 3041,
+          "storeName": "SuttonInAshfield",
+          "regionName": "The Midlands",
+          "latitude": 53.12464,
+          "longitude": -1.26143
+        },
+        {
+          "storeId": 3043,
+          "storeName": "Bletchley",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.99357,
+          "longitude": -0.732977
+        },
+        {
+          "storeId": 3044,
+          "storeName": "WestonSuperMare",
+          "regionName": "South-West of England",
+          "latitude": 51.348051,
+          "longitude": -2.979064
+        },
+        {
+          "storeId": 3045,
+          "storeName": "Carmarthen",
+          "regionName": "Wales",
+          "latitude": 51.856446,
+          "longitude": -4.308581
+        },
+        {
+          "storeId": 3046,
+          "storeName": "Burgess Hill",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.955191,
+          "longitude": -0.130128
+        },
+        {
+          "storeId": 3047,
+          "storeName": "Chichester",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.834907,
+          "longitude": -0.779541
+        },
+        {
+          "storeId": 3048,
+          "storeName": "Merthyr Tydfil",
+          "regionName": "Wales",
+          "latitude": 51.745153,
+          "longitude": -3.378866
+        },
+        {
+          "storeId": 3050,
+          "storeName": "Oxford Cowley",
+          "regionName": "North of England",
+          "latitude": 51.731714,
+          "longitude": -1.216552
+        },
+        {
+          "storeId": 3052,
+          "storeName": "Arnold",
+          "regionName": "The Midlands",
+          "latitude": 53.005011,
+          "longitude": -1.1268
+        },
+        {
+          "storeId": 3054,
+          "storeName": "Leigh",
+          "regionName": "North of England",
+          "latitude": 53.496307,
+          "longitude": -2.517201
+        },
+        {
+          "storeId": 3055,
+          "storeName": "Epsom",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.333501,
+          "longitude": -0.2657248
+        },
+        {
+          "storeId": 3056,
+          "storeName": "Gosport",
+          "regionName": "South-West of England",
+          "latitude": 50.79503,
+          "longitude": -1.11952
+        },
+        {
+          "storeId": 3057,
+          "storeName": "Yate",
+          "regionName": "South-West of England",
+          "latitude": 51.532199,
+          "longitude": -2.419601
+        },
+        {
+          "storeId": 3058,
+          "storeName": "Havant",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.852325,
+          "longitude": -0.982041
+        },
+        {
+          "storeId": 3059,
+          "storeName": "Clacton on Sea",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.7884332,
+          "longitude": 1.1521848
+        },
+        {
+          "storeId": 3060,
+          "storeName": "Douglas",
+          "regionName": "Isle of Man",
+          "latitude": 54.14977,
+          "longitude": -4.47855
+        },
+        {
+          "storeId": 3061,
+          "storeName": "Margate",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.3867572,
+          "longitude": 1.3809489
+        },
+        {
+          "storeId": 3062,
+          "storeName": "Long Eaton",
+          "regionName": "The Midlands",
+          "latitude": 52.897018,
+          "longitude": -1.268979
+        },
+        {
+          "storeId": 3063,
+          "storeName": "Morden",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.402759,
+          "longitude": -0.193758
+        },
+        {
+          "storeId": 3064,
+          "storeName": "Northallerton",
+          "regionName": "North of England",
+          "latitude": 54.340858,
+          "longitude": -1.434166
+        },
+        {
+          "storeId": 3065,
+          "storeName": "North Shields",
+          "regionName": "North of England",
+          "latitude": 55.009233,
+          "longitude": -1.446443
+        },
+        {
+          "storeId": 3066,
+          "storeName": "Welwyn Garden City",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.80189,
+          "longitude": -0.206329
+        },
+        {
+          "storeId": 3068,
+          "storeName": "Irvine",
+          "regionName": "Scotland",
+          "latitude": 55.6127,
+          "longitude": -4.66967
+        },
+        {
+          "storeId": 3069,
+          "storeName": "Paisley",
+          "regionName": "Scotland",
+          "latitude": 55.845437,
+          "longitude": -4.423338
+        },
+        {
+          "storeId": 3070,
+          "storeName": "Penzance",
+          "regionName": "South-West of England",
+          "latitude": 50.119317,
+          "longitude": -5.535544
+        },
+        {
+          "storeId": 3071,
+          "storeName": "Rhyl",
+          "regionName": "Wales",
+          "latitude": 53.320813,
+          "longitude": -3.489774
+        },
+        {
+          "storeId": 3072,
+          "storeName": "East Grinstead",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.12635,
+          "longitude": -0.0097
+        },
+        {
+          "storeId": 3073,
+          "storeName": "Glasgow Forge",
+          "regionName": "Scotland",
+          "latitude": 55.853894,
+          "longitude": -4.199211
+        },
+        {
+          "storeId": 3074,
+          "storeName": "Hove",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.830118,
+          "longitude": -0.173276
+        },
+        {
+          "storeId": 3075,
+          "storeName": "Palmers Green",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.61783,
+          "longitude": -0.109907
+        },
+        {
+          "storeId": 3076,
+          "storeName": "Bangor Wales",
+          "regionName": "Wales",
+          "latitude": 53.226295,
+          "longitude": -4.126152
+        },
+        {
+          "storeId": 3077,
+          "storeName": "Nottingham Victoria",
+          "regionName": "The Midlands",
+          "latitude": 52.95681,
+          "longitude": -1.147647
+        },
+        {
+          "storeId": 3078,
+          "storeName": "Southampton  Shirley",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.922427,
+          "longitude": -1.433564
+        },
+        {
+          "storeId": 3079,
+          "storeName": "Borehamwood",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.656168,
+          "longitude": -0.275656
+        },
+        {
+          "storeId": 3080,
+          "storeName": "Hastings",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.857249,
+          "longitude": 0.581415
+        },
+        {
+          "storeId": 3081,
+          "storeName": "Coalville",
+          "regionName": "The Midlands",
+          "latitude": 52.724241,
+          "longitude": -1.373399
+        },
+        {
+          "storeId": 3082,
+          "storeName": "Letchworth",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.977903,
+          "longitude": -0.228035
+        },
+        {
+          "storeId": 3083,
+          "storeName": "Middleton",
+          "regionName": "London and the South-East of England",
+          "latitude": 53.548243,
+          "longitude": -2.201051
+        },
+        {
+          "storeId": 3084,
+          "storeName": "Glenrothes",
+          "regionName": "Scotland",
+          "latitude": 56.196564,
+          "longitude": -3.170625
+        },
+        {
+          "storeId": 3086,
+          "storeName": "Felixstowe",
+          "regionName": "East Anglia",
+          "latitude": 51.962813,
+          "longitude": 1.351351
+        },
+        {
+          "storeId": 3087,
+          "storeName": "Horsham",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.063274,
+          "longitude": -0.332192
+        },
+        {
+          "storeId": 3088,
+          "storeName": "Hertford",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.796337,
+          "longitude": -0.078886
+        },
+        {
+          "storeId": 3090,
+          "storeName": "Exmouth",
+          "regionName": "South-West of England",
+          "latitude": 50.61919,
+          "longitude": -3.412387
+        },
+        {
+          "storeId": 3091,
+          "storeName": "Street",
+          "regionName": "South-West of England",
+          "latitude": 51.126507,
+          "longitude": -2.740741
+        },
+        {
+          "storeId": 3093,
+          "storeName": "Buxton",
+          "regionName": "The Midlands",
+          "latitude": 53.259318,
+          "longitude": -1.911312
+        },
+        {
+          "storeId": 3096,
+          "storeName": "Boston Bargate",
+          "regionName": "The Midlands",
+          "latitude": 52.979504,
+          "longitude": -0.022054
+        },
+        {
+          "storeId": 3099,
+          "storeName": "Kennedy Centre",
+          "regionName": "Northern Ireland",
+          "latitude": 54.581441,
+          "longitude": -5.978409
+        },
+        {
+          "storeId": 3100,
+          "storeName": "Bridgend",
+          "regionName": "Wales",
+          "latitude": 51.506664,
+          "longitude": -3.577995
+        },
+        {
+          "storeId": 3109,
+          "storeName": "Kilmarnock",
+          "regionName": "Scotland",
+          "latitude": 55.609559,
+          "longitude": -4.496235
+        },
+        {
+          "storeId": 3110,
+          "storeName": "Dunstable",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.887334,
+          "longitude": -0.521056
+        },
+        {
+          "storeId": 3111,
+          "storeName": "Edgware",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.6133572,
+          "longitude": -0.2767282
+        },
+        {
+          "storeId": 3112,
+          "storeName": "Cookstown",
+          "regionName": "Northern Ireland",
+          "latitude": 54.646029,
+          "longitude": -6.744629
+        },
+        {
+          "storeId": 3115,
+          "storeName": "Edinburgh Leith",
+          "regionName": "Scotland",
+          "latitude": 55.971386,
+          "longitude": -3.17129
+        },
+        {
+          "storeId": 3130,
+          "storeName": "Bromsgrove",
+          "regionName": "The Midlands",
+          "latitude": 52.335588,
+          "longitude": -2.059661
+        },
+        {
+          "storeId": 3133,
+          "storeName": "Coventry Cannon Park",
+          "regionName": "The Midlands",
+          "latitude": 52.387303,
+          "longitude": -1.55451
+        },
+        {
+          "storeId": 3139,
+          "storeName": "Portsmouth North End",
+          "regionName": "London and the South-East of England",
+          "latitude": 50.814744,
+          "longitude": -1.079508
+        },
+        {
+          "storeId": 3142,
+          "storeName": "Ilkeston",
+          "regionName": "The Midlands",
+          "latitude": 52.972288,
+          "longitude": -1.30807
+        },
+        {
+          "storeId": 3147,
+          "storeName": "Leeds White Rose",
+          "regionName": "North of England",
+          "latitude": 53.758395,
+          "longitude": -1.574127
+        },
+        {
+          "storeId": 3150,
+          "storeName": "Newcastle upon Tyne",
+          "regionName": "North of England",
+          "latitude": 54.976795,
+          "longitude": -1.613195
+        },
+        {
+          "storeId": 3153,
+          "storeName": "Ruislip",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.573986,
+          "longitude": -0.424189
+        },
+        {
+          "storeId": 3155,
+          "storeName": "Feltham",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.445732,
+          "longitude": -0.410705
+        },
+        {
+          "storeId": 3156,
+          "storeName": "Redcar",
+          "regionName": "North of England",
+          "latitude": 54.618197,
+          "longitude": -1.06631
+        },
+        {
+          "storeId": 3165,
+          "storeName": "Beaumont Leys Leicester",
+          "regionName": "The Midlands",
+          "latitude": 52.666332,
+          "longitude": -1.166456
+        },
+        {
+          "storeId": 3166,
+          "storeName": "Huntingdon",
+          "regionName": "East Anglia",
+          "latitude": 52.33053,
+          "longitude": -0.18232
+        },
+        {
+          "storeId": 3167,
+          "storeName": "Bearwood",
+          "regionName": "The Midlands",
+          "latitude": 52.474409,
+          "longitude": -1.968864
+        },
+        {
+          "storeId": 3170,
+          "storeName": "Kingswood",
+          "regionName": "South-West of England",
+          "latitude": 51.462555,
+          "longitude": -2.508982
+        },
+        {
+          "storeId": 3173,
+          "storeName": "Deptford",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.476597,
+          "longitude": -0.02601
+        },
+        {
+          "storeId": 3174,
+          "storeName": "Islington",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.533709,
+          "longitude": -0.107743
+        },
+        {
+          "storeId": 3176,
+          "storeName": "Nantwich",
+          "regionName": "North of England",
+          "latitude": 53.067833,
+          "longitude": -2.521438
+        },
+        {
+          "storeId": 3177,
+          "storeName": "Trowbridge",
+          "regionName": "South-West of England",
+          "latitude": 51.320496,
+          "longitude": -2.20935
+        },
+        {
+          "storeId": 3178,
+          "storeName": "Morley",
+          "regionName": "North of England",
+          "latitude": 53.745323,
+          "longitude": -1.602209
+        },
+        {
+          "storeId": 3179,
+          "storeName": "Wandsworth",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.455376,
+          "longitude": -0.194088
+        },
+        {
+          "storeId": 3181,
+          "storeName": "Whitechapel",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.51917,
+          "longitude": -0.06107
+        },
+        {
+          "storeId": 3182,
+          "storeName": "Lakeside",
+          "regionName": "London and the South-East of England",
+          "latitude": 51.488315,
+          "longitude": 0.283518
+        },
+        {
+          "storeId": 3184,
+          "storeName": "Denton",
+          "regionName": "North of England",
+          "latitude": 53.788343,
+          "longitude": -1.540553
+        },
+        {
+          "storeId": 3186,
+          "storeName": "Catterick",
+          "regionName": "North of England",
+          "latitude": 54.376298,
+          "longitude": -1.724397
+        }
+      ]
+    },
+    "error": {
+      "code": "",
+      "internal_message": "",
+      "moreInfo": []
+    }
+  }
+}

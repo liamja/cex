@@ -9,6 +9,7 @@ use JsonMapper;
 use Liamja\Cex\Models\Box;
 use Liamja\Cex\Models\NearestStore;
 use Liamja\Cex\Models\PredictiveSearchResult;
+use Liamja\Cex\Models\Store;
 use Psr\Http\Message\ResponseInterface;
 use function GuzzleHttp\json_decode;
 
@@ -43,6 +44,30 @@ class CexClient
             ]);
 
         $this->mapper = new JsonMapper();
+    }
+
+    /**
+     * Get all stores.
+     *
+     * curl -XGET 'https://wss2.cex.uk.webuy.io/v3/stores'
+     *
+     * @return Store[]
+     */
+    public function getStores(): array
+    {
+        try {
+            $response = $this->client->get('stores');
+        } catch (ClientException $e) {
+            $response = $this->rethrowClientException($e);
+        }
+
+        $jsonResponse = json_decode($response->getBody());
+
+        $output = $this->mapper->mapArray(
+            $jsonResponse->response->data->stores, [], Store::class
+        );
+
+        return $output;
     }
 
     /**

@@ -8,6 +8,7 @@ use Liamja\Cex\FailureException;
 use Liamja\Cex\Models\Box;
 use Liamja\Cex\Models\NearestStore;
 use Liamja\Cex\Models\PredictiveSearchResult;
+use Liamja\Cex\Models\Store;
 use Liamja\Cex\SearchParameters;
 
 class CexClientTest extends \PHPUnit\Framework\TestCase
@@ -50,6 +51,15 @@ class CexClientTest extends \PHPUnit\Framework\TestCase
         $boxes = $cex->searchBoxes($searchParameters);
 
         $this->assertInstanceOf(Box::class, $boxes[0]);
+    }
+
+    public function testGetStores(): void
+    {
+        $cex = static::createMockCexClient([[200, 'Stores/Stores.json']]);
+
+        $stores = $cex->getStores();
+
+        $this->assertInstanceOf(Store::class, $stores[0]);
     }
 
     public function testSearchNearestStores(): void
