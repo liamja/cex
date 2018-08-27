@@ -1,5 +1,6 @@
 {
     "name": "liamja/cex",
+    "description": "Client for CeX UK's internal API.",
     "type": "project",
     "license": "MIT",
     "authors": [
