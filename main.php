@@ -3,6 +3,7 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
+use GuzzleHttp\RequestOptions;
 use NunoMaduro\Collision\Provider as CollisionProvider;
 use function GuzzleHttp\json_decode;
 
@@ -11,7 +12,7 @@ use function GuzzleHttp\json_decode;
 
 // Read in the command line arguments.
 $searchTerm = $argv[1] ?? '';
-$searchLocation = $argv[2] ?? '';
+$searchLocation = $argv[2] ?? 'London, UK';
 
 // Set up a Guzzle client to interact with the CeX API.
 $geocodeClient = new \GuzzleHttp\Client([
@@ -35,7 +36,7 @@ $client = new \GuzzleHttp\Client([
 
 // Example nearest store search request.
 // curl -XGET 'https://wss2.cex.uk.webuy.io/v3/stores/nearest?latitude=52.6308859&longitude=1.2973550000000387' \
-$response = $client->get('stores/nearest', ['query' => $location]);
+$response = $client->get('stores/nearest', [RequestOptions::QUERY => $location]);
 
 $jsonResponse = json_decode($response->getBody());
 
@@ -44,10 +45,10 @@ $storeId = $jsonResponse->response->data->nearestStores[0]->storeId;
 // Example search request.
 // curl -XGET 'https://wss2.cex.uk.webuy.io/v3/boxes?q=ashes%20to%20ashes'
 $response = $client->get('boxes', [
-    'query' => [
+    RequestOptions::QUERY => [
         'q' => $searchTerm,
         'inStock' => 1,
-        'storeIds' => '['.$storeId.']',
+        'storeIds' => '[' . $storeId . ']',
         //'categoryIds' => '[710, 1096]',
         'firstRecord' => 1,
         'count' => 25,
@@ -74,14 +75,14 @@ foreach ($jsonResponse->response->data->boxes as $box) {
         // Example "nearest store" search.
         // curl -XGET 'https://wss2.cex.uk.webuy.io/v3/boxes/5030305620561/neareststores?latitude=52.62343240000001&longitude=1.3077290999999605'
         $response = $client->get(sprintf('boxes/%s/neareststores', $boxDetail->boxId), [
-            'query' => $location,
+            RequestOptions::QUERY => $location,
         ]);
 
         $jsonResponse = json_decode($response->getBody());
 
         foreach ($jsonResponse->response->data->nearestStores as $store) {
             if ($store->storeId === $storeId && $store->quantityOnHand > 0) {
-                echo sprintf('%s has %d in stock!', $store->storeName, $store->quantityOnHand) . PHP_EOL;
+                echo sprintf('%s has %dx "%s" in stock!', $store->storeName, $store->quantityOnHand, $box->boxName) . PHP_EOL;
             }
         }
     }
@@ -114,7 +115,7 @@ foreach ($jsonResponse->response->data->results as $result) {
         // Example "nearest store" search.
         // curl -XGET 'https://wss2.cex.uk.webuy.io/v3/boxes/5030305620561/neareststores?latitude=52.62343240000001&longitude=1.3077290999999605'
         $response = $client->get(sprintf('boxes/%s/neareststores', $box->boxId), [
-            'query' => $location,
+            RequestOptions::QUERY => $location,
         ]);
 
         $jsonResponse = json_decode($response->getBody());

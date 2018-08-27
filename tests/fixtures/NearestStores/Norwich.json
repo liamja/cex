@@ -1,0 +1,164 @@
+{
+  "response": {
+    "ack": "Success",
+    "data": {
+      "nearestStores": [
+        {
+          "storeId": 168,
+          "storeName": "Norwich",
+          "storeImageUrls": [
+            "https://uk.webuy.com/store_images/168/168.jpg"
+          ],
+          "latitude": 52.62547,
+          "longitude": 1.29278,
+          "distance": 0.42,
+          "timings": {
+            "open": {
+              "monday": "9:00",
+              "tuesday": "9:00",
+              "wednesday": "9:00",
+              "thursday": "9:00",
+              "friday": "9:00",
+              "saturday": "9:00",
+              "sunday": "11:00"
+            },
+            "close": {
+              "monday": "18:00",
+              "tuesday": "18:00",
+              "wednesday": "18:00",
+              "thursday": "20:00",
+              "friday": "18:00",
+              "saturday": "18:00",
+              "sunday": "17:00"
+            }
+          }
+        },
+        {
+          "storeId": 163,
+          "storeName": "Great Yarmouth",
+          "storeImageUrls": [
+            "https://uk.webuy.com/store_images/163/163.jpg"
+          ],
+          "latitude": 52.606792,
+          "longitude": 1.727509,
+          "distance": 18.12,
+          "timings": {
+            "open": {
+              "monday": "9:30",
+              "tuesday": "9:30",
+              "wednesday": "9:30",
+              "thursday": "9:30",
+              "friday": "9:30",
+              "saturday": "9:00",
+              "sunday": "10:30"
+            },
+            "close": {
+              "monday": "18:00",
+              "tuesday": "18:00",
+              "wednesday": "18:00",
+              "thursday": "18:00",
+              "friday": "18:00",
+              "saturday": "18:00",
+              "sunday": "17:00"
+            }
+          }
+        },
+        {
+          "storeId": 214,
+          "storeName": "Lowestoft",
+          "storeImageUrls": [
+            "https://uk.webuy.com/store_images/214/214.jpg"
+          ],
+          "latitude": 52.474874,
+          "longitude": 1.751182,
+          "distance": 21.9,
+          "timings": {
+            "open": {
+              "monday": "9:00",
+              "tuesday": "9:00",
+              "wednesday": "9:00",
+              "thursday": "9:00",
+              "friday": "9:00",
+              "saturday": "9:00",
+              "sunday": "10:00"
+            },
+            "close": {
+              "monday": "17:30",
+              "tuesday": "17:30",
+              "wednesday": "17:30",
+              "thursday": "17:30",
+              "friday": "17:30",
+              "saturday": "17:30",
+              "sunday": "16:00"
+            }
+          }
+        },
+        {
+          "storeId": 3002,
+          "storeName": "Thetford",
+          "storeImageUrls": [
+            "https://uk.webuy.com/store_images/3002/3002.jpg"
+          ],
+          "latitude": 52.41416,
+          "longitude": 0.74761,
+          "distance": 27.54,
+          "timings": {
+            "open": {
+              "monday": "9:30",
+              "tuesday": "9:30",
+              "wednesday": "9:30",
+              "thursday": "9:30",
+              "friday": "9:30",
+              "saturday": "9:00",
+              "sunday": "10:30"
+            },
+            "close": {
+              "monday": "18:00",
+              "tuesday": "18:00",
+              "wednesday": "18:00",
+              "thursday": "18:00",
+              "friday": "18:00",
+              "saturday": "18:00",
+              "sunday": "17:00"
+            }
+          }
+        },
+        {
+          "storeId": 190,
+          "storeName": "Kings Lynn",
+          "storeImageUrls": [
+            "https://uk.webuy.com/store_images/190/190.jpg"
+          ],
+          "latitude": 52.755002,
+          "longitude": 0.396333,
+          "distance": 38.69,
+          "timings": {
+            "open": {
+              "monday": "9:00",
+              "tuesday": "9:00",
+              "wednesday": "9:00",
+              "thursday": "9:00",
+              "friday": "9:00",
+              "saturday": "9:00",
+              "sunday": "10:00"
+            },
+            "close": {
+              "monday": "18:00",
+              "tuesday": "18:00",
+              "wednesday": "18:00",
+              "thursday": "18:00",
+              "friday": "18:00",
+              "saturday": "18:00",
+              "sunday": "16:00"
+            }
+          }
+        }
+      ]
+    },
+    "error": {
+      "code": "",
+      "internal_message": "",
+      "moreInfo": []
+    }
+  }
+}

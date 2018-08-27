@@ -1,0 +1,11 @@
+{
+  "response": {
+    "ack": "Failure",
+    "data": "",
+    "error": {
+      "code": 1016,
+      "internal_message": "Missing search text",
+      "moreInfo": []
+    }
+  }
+}

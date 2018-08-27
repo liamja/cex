@@ -1,17 +1,6 @@
-<?php
+<?php declare(strict_types=1);
 
-namespace Liamja\Cex;
-
-//                     "boxId": "045496901738",
-//                    "boxName": "New Super Mario Bros. Wii",
-//                    "masterBoxId": null,
-//                    "categoryFriendlyName": "Wii Games",
-//                    "superCatId": 1,
-//                    "superCatName": "Gaming",
-//                    "superCatFriendlyName": "Gaming",
-//                    "sellPrice": 12,
-//                    "cashPrice": 5,
-//                    "exchangePrice": 8
+namespace Liamja\Cex\Models;
 
 class Box
 {

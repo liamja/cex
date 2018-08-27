@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Liamja\Cex;
+namespace Liamja\Cex\Models;
 
 /**
  * Nearest Store

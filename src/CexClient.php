@@ -3,8 +3,13 @@
 namespace Liamja\Cex;
 
 use GuzzleHttp\ClientInterface;
+use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\RequestOptions;
 use JsonMapper;
+use Liamja\Cex\Models\Box;
+use Liamja\Cex\Models\NearestStore;
+use Liamja\Cex\Models\PredictiveSearchResult;
+use Psr\Http\Message\ResponseInterface;
 use function GuzzleHttp\json_decode;
 
 /**
@@ -52,12 +57,16 @@ class CexClient
      */
     public function searchNearestStores(float $latitude, float $longitude)
     {
-        $response = $this->client->get('stores/nearest', [
-            RequestOptions::QUERY => [
-                'latitude' => $latitude,
-                'longitude' => $longitude,
-            ]
-        ]);
+        try {
+            $response = $this->client->get('stores/nearest', [
+                RequestOptions::QUERY => [
+                    'latitude' => $latitude,
+                    'longitude' => $longitude,
+                ]
+            ]);
+        } catch (ClientException $e) {
+            $response = $this->rethrowClientException($e);
+        }
 
         $jsonResponse = json_decode($response->getBody());
 
@@ -79,9 +88,13 @@ class CexClient
      */
     public function searchBoxes(SearchParameters $searchParameters): array
     {
-        $response = $this->client->get('boxes', [
-            RequestOptions::QUERY => $searchParameters->getPreparedParameters(),
-        ]);
+        try {
+            $response = $this->client->get('boxes', [
+                RequestOptions::QUERY => $searchParameters->getPreparedParameters(),
+            ]);
+        } catch (ClientException $e) {
+            $response = $this->rethrowClientException($e);
+        }
 
         $jsonResponse = json_decode($response->getBody());
 
@@ -103,9 +116,13 @@ class CexClient
      */
     public function predictiveSearch(SearchParameters $searchParameters): array
     {
-        $response = $this->client->get('boxes/predictivesearch', [
-            RequestOptions::QUERY => $searchParameters->getPreparedParameters(),
-        ]);
+        try {
+            $response = $this->client->get('boxes/predictivesearch', [
+                RequestOptions::QUERY => $searchParameters->getPreparedParameters(),
+            ]);
+        } catch (ClientException $e) {
+            $response = $this->rethrowClientException($e);
+        }
 
         $jsonResponse = json_decode($response->getBody());
 
@@ -114,5 +131,27 @@ class CexClient
         );
 
         return $output;
+    }
+
+    private function rethrowClientException(ClientException $e): ResponseInterface
+    {
+        // If it's not a bad request made by the user, rethrow it,
+        // as we can package up 400 "Failures" later in a nicer format.
+        if (!$e->hasResponse() || $e->getResponse()->getStatusCode() !== 400) {
+            throw $e;
+        }
+
+        $jsonResponse = json_decode($e->getResponse()->getBody())->response;
+
+        if ($jsonResponse->ack === 'Failure') {
+            throw new FailureException(
+                $jsonResponse->error->internal_message,
+                $jsonResponse->error->code,
+                $jsonResponse->error->moreInfo,
+                $e
+            );
+        }
+
+        return $e->getResponse();
     }
 }
