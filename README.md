@@ -9,7 +9,7 @@ when browsing the website, so it assumes a lot.
 ## Installation
 
 ```shell
-composer require liamja\cex
+composer require liamja/cex
 ```
 
 
