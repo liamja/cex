@@ -21,7 +21,8 @@
         "ext-json": "*",
         "guzzlehttp/guzzle": "^6.3",
         "netresearch/jsonmapper": "^1.4",
-        "nunomaduro/collision": "^2.0"
+        "nunomaduro/collision": "^2.0",
+        "php": "^7.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^7",
