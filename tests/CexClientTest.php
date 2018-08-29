@@ -42,7 +42,7 @@ class CexClientTest extends \PHPUnit\Framework\TestCase
         ]));
     }
 
-    public function testSearchBoxes(): void
+    public function testSearchBoxesReturnsArrayOfBoxObjects(): void
     {
         $cex = static::createMockCexClient([[200, 'Boxes/SuperMarioBrosBoxes.json']]);
 
@@ -54,7 +54,7 @@ class CexClientTest extends \PHPUnit\Framework\TestCase
         $this->assertInstanceOf(Box::class, $boxes[0]);
     }
 
-    public function testGetStores(): void
+    public function testGetStoresReturnsArrayOfStoreObjects(): void
     {
         $cex = static::createMockCexClient([[200, 'Stores/Stores.json']]);
 
@@ -63,7 +63,7 @@ class CexClientTest extends \PHPUnit\Framework\TestCase
         $this->assertInstanceOf(Store::class, $stores[0]);
     }
 
-    public function testSearchNearestStores(): void
+    public function testSearchNearestStoresReturnsArrayOfNearestStoreObjects(): void
     {
         $cex = static::createMockCexClient([[200, 'NearestStores/Norwich.json']]);
 
@@ -72,7 +72,7 @@ class CexClientTest extends \PHPUnit\Framework\TestCase
         $this->assertInstanceOf(NearestStore::class, $stores[0]);
     }
 
-    public function testPredictiveSearch(): void
+    public function testPredictiveSearchReturnsArrayOfPredictiveSearchResultObjects(): void
     {
         $cex = static::createMockCexClient([[200, 'PredictiveSearch/SuperMarioBrosPredictiveSearchResults.json']]);
 
@@ -84,7 +84,7 @@ class CexClientTest extends \PHPUnit\Framework\TestCase
         $this->assertInstanceOf(PredictiveSearchResult::class, $results[0]);
     }
 
-    public function testPredictiveSearchExceptionIsThrownWhenSearchTextIsMissing(): void
+    public function testPredictiveSearchThrowsFailureExceptionWhenSearchTextIsMissing(): void
     {
         $this->expectException(FailureException::class);
 
