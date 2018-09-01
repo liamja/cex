@@ -5,6 +5,9 @@ PHP client for CeX UK's internal Ajax API.
 This client was created from reverse engineering the Ajax responses
 when browsing the website, so it assumes a lot.
 
+## License
+
+Licensed under MIT - see [LICENSE.md]() for more info.
 
 ## Installation
 
@@ -19,6 +22,32 @@ Create a new instance of the CeX Client:
 
 ```php
 $cex = new CexClient();
+```
+
+
+## Searching for Products / Boxes
+
+Individual products are referred to as _Boxes_.
+
+```php
+// Specify a new set of search parameters.
+$searchParameters = new SearchParameters();
+$searchParameters->setSearchTerm('Super Mario Bros');
+
+// Search for boxes that match our parameters.
+$boxes = $cex->searchBoxes($searchParameters);
+
+// CexClient::searchBoxes() returns an array of \Liamja\Cex\Models\Box
+foreach ($boxes as $box) {
+    // Get the box's unique ID.
+    echo $box->boxId;
+        
+    // Get the box's name.
+    echo $box->boxName;     
+       
+    // Get the category the box belongs to.
+    echo $box->categoryName;
+}
 ```
 
 
@@ -92,31 +121,6 @@ foreach ($stores as $store) {
 }
 ```
 
-
-## Searching for Products / Boxes
-
-Individual products are referred to as _Boxes_.
-
-```php
-// Specify a new set of search parameters.
-$searchParameters = new SearchParameters();
-$searchParameters->setSearchTerm('Super Mario Bros');
-
-// Search for boxes that match our parameters.
-$boxes = $cex->searchBoxes($searchParameters);
-
-// CexClient::searchBoxes() returns an array of \Liamja\Cex\Models\Box
-foreach ($boxes as $box) {
-    // Get the box's unique ID.
-    echo $box->boxId;
-        
-    // Get the box's name.
-    echo $box->boxName;     
-       
-    // Get the category the box belongs to.
-    echo $box->categoryName;
-}
-```
 
 ### Searching for Products at a Given Store
 

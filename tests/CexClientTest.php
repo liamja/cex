@@ -1,5 +1,8 @@
 <?php declare(strict_types=1);
 
+namespace Liamja\Cex\Tests;
+
+use DateTimeImmutable;
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
@@ -19,18 +22,25 @@ class CexClientTest extends \PHPUnit\Framework\TestCase
         $responses = [];
 
         foreach ($fixtures as $fixture) {
+            $fixtureFilePath = __DIR__ . '/fixtures/' . $fixture[1];
+            $fixtureContents = file_get_contents($fixtureFilePath);
+
+            if ($fixtureContents == false) {
+                throw new \RuntimeException("Can't read {$fixtureFilePath}");
+            }
+
             $responses[] = new Response(
                 $fixture[0],
                 [
                     'Content-Type' => 'application/json; charset=UTF-8',
                     'Vary' => 'Accept-Encoding',
                     'Content-Encoding' => 'br',
-                    'Date' => (new DateTime('UTC'))->format('D, d M Y H:i:s \G\M\T'),
+                    'Date' => (new DateTimeImmutable('UTC'))->format('D, d M Y H:i:s \G\M\T'),
                     'Access-Control-Allow-Origin' => 'https://uk.webuy.com',
                     'Strict-Transport-Security' => 'max-age=15552000',
 
                 ],
-                file_get_contents(__DIR__ . '/fixtures/' . $fixture[1])
+                $fixtureContents
             );
         }
 
