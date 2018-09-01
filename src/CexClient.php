@@ -2,8 +2,9 @@
 
 namespace Liamja\Cex;
 
-use GuzzleHttp\ClientInterface;
+use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
+use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\RequestOptions;
 use JsonMapper;
 use Liamja\Cex\Models\Box;
@@ -21,7 +22,7 @@ class CexClient
     /**
      * HTTP Client.
      *
-     * @var ClientInterface
+     * @var Client
      */
     private $client;
 
@@ -35,11 +36,11 @@ class CexClient
     /**
      * CeX constructor.
      *
-     * @param ClientInterface $client
+     * @param Client $client
      */
-    public function __construct(ClientInterface $client = null)
+    public function __construct(Client $client = null)
     {
-        $this->client = $client ?? new \GuzzleHttp\Client([
+        $this->client = $client ?? new Client([
                 'base_uri' => 'https://wss2.cex.uk.webuy.io/v3/',
             ]);
 
@@ -61,7 +62,7 @@ class CexClient
             $response = $this->rethrowClientException($e);
         }
 
-        $jsonResponse = json_decode($response->getBody());
+        $jsonResponse = json_decode($response->getBody()->getContents());
 
         $output = $this->mapper->mapArray(
             $jsonResponse->response->data->stores, [], Store::class
@@ -93,7 +94,7 @@ class CexClient
             $response = $this->rethrowClientException($e);
         }
 
-        $jsonResponse = json_decode($response->getBody());
+        $jsonResponse = json_decode($response->getBody()->getContents());
 
         $output = $this->mapper->mapArray(
             $jsonResponse->response->data->nearestStores, [], NearestStore::class
@@ -121,7 +122,7 @@ class CexClient
             $response = $this->rethrowClientException($e);
         }
 
-        $jsonResponse = json_decode($response->getBody());
+        $jsonResponse = json_decode($response->getBody()->getContents());
 
         $output = $this->mapper->mapArray(
             $jsonResponse->response->data->boxes, [], Box::class
@@ -149,7 +150,7 @@ class CexClient
             $response = $this->rethrowClientException($e);
         }
 
-        $jsonResponse = json_decode($response->getBody());
+        $jsonResponse = json_decode($response->getBody()->getContents());
 
         $output = $this->mapper->mapArray(
             $jsonResponse->response->data->results, [], PredictiveSearchResult::class
@@ -160,13 +161,15 @@ class CexClient
 
     private function rethrowClientException(ClientException $e): ResponseInterface
     {
+        $response = $e->getResponse() ?? new Response(500);
+
         // If it's not a bad request made by the user, rethrow it,
         // as we can package up 400 "Failures" later in a nicer format.
-        if (!$e->hasResponse() || $e->getResponse()->getStatusCode() !== 400) {
+        if (!$e->hasResponse() || $response->getStatusCode() !== 400) {
             throw $e;
         }
 
-        $jsonResponse = json_decode($e->getResponse()->getBody())->response;
+        $jsonResponse = json_decode($response->getBody()->getContents())->response;
 
         if ($jsonResponse->ack === 'Failure') {
             throw new FailureException(
@@ -177,6 +180,6 @@ class CexClient
             );
         }
 
-        return $e->getResponse();
+        return $response;
     }
 }

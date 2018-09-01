@@ -14,7 +14,7 @@ class Store
     public $storeName;
 
     /** @var string Region the store is located. */
-    public $regionName = [];
+    public $regionName;
 
     /** @var float Latitude. */
     public $latitude;
