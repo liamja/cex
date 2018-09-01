@@ -1,0 +1,56 @@
+{
+  "response": {
+    "ack": "Success",
+    "data": {
+      "boxDetails": [
+        {
+          "boxId": "5028836040361",
+          "boxName": "Super Mario Bros (PG)",
+          "categoryId": 792,
+          "categoryName": "Blu-Ray Movies",
+          "categoryFriendlyName": "Blu-Ray Movies",
+          "superCatId": 2,
+          "superCatName": "DVD",
+          "superCatFriendlyName": "DVD",
+          "cannotBuy": 0,
+          "isNewBox": 0,
+          "cashPrice": 5,
+          "exchangePrice": 8,
+          "sellPrice": 12,
+          "boxRating": 4.3,
+          "outOfStock": 0,
+          "ecomQuantityOnHand": 10,
+          "webSellAllowed": 1,
+          "webBuyAllowed": 1,
+          "webShowSellPrice": 1,
+          "webShowBuyPrice": 1,
+          "imageUrls": {
+            "large": "https://uk.webuy.com/product_images/DVD/Blu-Ray Movies/5028836040361_l.jpg",
+            "medium": "https://uk.webuy.com/product_images/DVD/Blu-Ray Movies/5028836040361_m.jpg",
+            "small": "https://uk.webuy.com/product_images/DVD/Blu-Ray Movies/5028836040361_s.jpg",
+            "masterBoxLarge": null,
+            "masterBoxMedium": null,
+            "masterBoxSmall": null
+          },
+          "isMasterBox": 0,
+          "boxDescription": "<html>\r\n  <body>\r\n    <p>Rocky Morton and Annabel Jankel direct this family adventure based on the\r\n      <em><strong>Super Mario Bros</strong></em>. characters. When Mario (Bob\r\n      Hoskins) and Luigi (John Leguizamo), plumbers from New York, are called in\r\n      to help out with a flood at a dinosaur excavation site by the beautiful\r\n      Daisy (Samantha Mathis), they become embroiled in a struggle with a\r\n      parallel reptilian universe, ruled by Koopa (Dennis Hopper), a leader who\r\n      wants to merge it with Earth.</p>\r\n  </body>\r\n</html>",
+          "operatorId": null,
+          "gradeId": null,
+          "productGuide": {
+            "productLineId": 81,
+            "productGuideDescription": "<h3>Notes About Additional Content</h3><p></p><p>Our products may not include additional material like Digital Copies, Online Passes or promotional downloadable content (DLC).</p>",
+            "globalGuide": null
+          },
+          "boxRatingText": null,
+          "attributeDetails": null
+        }
+      ],
+      "masterBoxDetails": null
+    },
+    "error": {
+      "code": "",
+      "internal_message": "",
+      "moreInfo": []
+    }
+  }
+}
