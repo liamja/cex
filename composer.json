@@ -1,5 +1,6 @@
 {
     "name": "liamja/cex",
+    "version": "0.1.0",
     "description": "Client for CeX UK's internal API.",
     "type": "project",
     "license": "MIT",
@@ -27,7 +28,6 @@
         "ext-json": "*",
         "guzzlehttp/guzzle": "^6.3",
         "netresearch/jsonmapper": "^1.4",
-        "nunomaduro/collision": "^2.0",
         "sensiolabs/security-checker": "^4.1"
     },
     "require-dev": {
